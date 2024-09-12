@@ -119,13 +119,13 @@ print(f"{name} liked to hum the {song} while coding. It was so annoying that the
 # Correcting Invalid Names: Below are some invalid names. Correct them according to the rules:
 
 
-# 1st_name
-# last name
-# email@address
-# percent%
-# variable#name
-# O
-# list
+# first_name
+# last_name
+# email_address
+# percent
+# variable_name
+# zero
+# list # this is a key word on python you can't use it
 # Creating Valid Names: Create valid names for the following descriptions:
 
 
@@ -146,10 +146,11 @@ print(f"{name} liked to hum the {song} while coding. It was so annoying that the
 # email_address
 # percentage
 # variable_name
-# 1_variable
-# email@address
-# percentage%
-# i
+# first_variable
+# email_address
+# percentage
+# eye
+
 
 
 
