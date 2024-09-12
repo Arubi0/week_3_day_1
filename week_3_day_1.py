@@ -48,42 +48,42 @@
 
 
 # # Review
-# create variables for the following :
-# 1. age
-age = 17 # integer variable
-# 2. name
-name = "Armando" # string variable
-# 3. song
-song = "Happy Birthday" # string variable
-# 4. food
-food = "Pizza" # string variable
-# 5. number
-number = 1738 # integer variable
+# # create variables for the following :
+# # 1. age
+# age = 17 # integer variable
+# # 2. name
+# name = "Armando" # string variable
+# # 3. song
+# song = "Happy Birthday" # string variable
+# # 4. food
+# food = "Pizza" # string variable
+# # 5. number
+# number = 1738 # integer variable
 
-# #now include the variables you just made print in the following...
+# # #now include the variables you just made print in the following...
 
 
-# Once upon a time, there was a [age] old coder named [name].
-#concatenation --- + around your variables
-print ("Once upon a time, there was a " + str(age) + " old coder name " + name + ".")
-print ("There was a number" + str(number) + "as well")
+# # Once upon a time, there was a [age] old coder named [name].
+# #concatenation --- + around your variables
+# print ("Once upon a time, there was a " + str(age) + " old coder name " + name + ".")
+# print ("There was a number" + str(number) + "as well")
 
-#put the age and number in a sentence
-print ("There was a man named " + name + " he had " + str(number) + " dollars in his bank account.")
+# #put the age and number in a sentence
+# print ("There was a man named " + name + " he had " + str(number) + " dollars in his bank account.")
 
-date_of_birth = 2021
-number2 = 123
-number3 = 123.450
-number4 = 123.33
-number5 = 4555
-# print("A kid was born in the year of " + str(date_of_birth) + "he was trying to learn his numbers. He learned " + str(number2) + " he tried to type it in a computer and mistakenly wrote " + str(number3) + "he did it again by typing" + str(number4) + "he gave up when he wrote" + str(number5))
-# #f strings 
-print(f"the date of birth is {date_of_birth} and the number is {number2} and the number is {number3} and the number is {number4} and the number is {number5} ")
-# [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
-print(f"{name} liked to hum the {song} while coding. It was so annoying that their teammates would throw {food} until {name} would stop singing.")
+# date_of_birth = 2021
+# number2 = 123
+# number3 = 123.450
+# number4 = 123.33
+# number5 = 4555
+# # print("A kid was born in the year of " + str(date_of_birth) + "he was trying to learn his numbers. He learned " + str(number2) + " he tried to type it in a computer and mistakenly wrote " + str(number3) + "he did it again by typing" + str(number4) + "he gave up when he wrote" + str(number5))
+# # #f strings 
+# print(f"the date of birth is {date_of_birth} and the number is {number2} and the number is {number3} and the number is {number4} and the number is {number5} ")
+# # [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
+# print(f"{name} liked to hum the {song} while coding. It was so annoying that their teammates would throw {food} until {name} would stop singing.")
 
-# Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
-##########################################################################################
+# # Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
+# ##########################################################################################
 
 
 
@@ -183,23 +183,36 @@ print(f"{name} liked to hum the {song} while coding. It was so annoying that the
 # 2. Floating point numbers in Python are notable because they have a decimal point in them, or use an exponential (e) to define the number. For example 2.0 and -2.1 are examples of floating point numbers. 4E2 (4 times 10 to the power of 2) is also an example of a floating point number in Python.
 
 
-##########################################################################################
-# #addition
-# #multiplication
-# #division
-# #modulo
-# #powers
-# #get the max and min of a number
-# #round a number
-# # absolute value
-# # order of operations
-# #to do more you need to import special math libraries from python
-# #from math import *    
-# #this goes out and grabs some different math functions we can use
-# #floor method
-# #ceil method
-# #sqrt method
-
+# ##########################################################################################
+# # #addition
+# print(2+1)
+# # #multiplication
+# print(2*2)
+# # #division
+# print(6/2)
+# # #modulo
+# print(7%4) # the remainder of 7 divided by 4
+# # #powers
+# print(2**3) #2 to the power of 3
+# # #get the max and min of a number
+# print(max(2,3)) #the max of two and three
+# print(min(2,3)) #the min of two and three
+# # #round a number
+# print(round(3.9))
+# # # absolute value
+# print(abs(-3))
+# #it will always be postive
+# # # order of operations (pemdas)
+# print(2+10*10+3)
+# # #to do more you need to import special math libraries from python
+# from math import *
+# # #this goes out and grabs some different math functions we can use
+# # #floor method
+# print(floor(3.7))
+# # #ceil method
+# print(ceil(5.2))
+# # #sqrt method
+# print(sqrt())
 
 
 
@@ -218,15 +231,23 @@ print(f"{name} liked to hum the {song} while coding. It was so annoying that the
 # # **Getting Input from users**
 # #how do we get input from users?
 # input("what is your name?")
+name = input("what is your name? ")
+print("hello",name)
 # # basic math calculator
 # #ask the user for 2 numbers
+num1 = int(input("Enter a nmuber:"))
+num2 = int(input("Enter another number:"))
 # # print out a statement where you:
 # # add them together
+print(num1 + num2)
 # #multiply
+print(num1 * num2)
 # # find the max number
+print(max(num1,num2))
 # # find the remainder of the numbers
+print(num1%num2)
 # #round one number
-
+print(round(num1))
 
 
 
